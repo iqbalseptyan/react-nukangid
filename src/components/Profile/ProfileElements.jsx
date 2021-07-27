@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ProfileContainer = styled.div`
   display: flex;
-  width: 50%auto;
+  width: 50%;
   height: auto;
   justify-content: center;
   align-items: center;
@@ -11,7 +11,7 @@ export const ProfileContainer = styled.div`
   margin-bottom: 64px;
 
   @media screen and (max-width: 1024px) {
-    width: 100%;
+    width: 80%;
     height: 100%;
   }
   @media screen and (max-width: 480px) {

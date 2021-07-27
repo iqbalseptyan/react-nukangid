@@ -6,9 +6,9 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   topLine: "Nukangid",
-  headLine: "Unlimited Transactions with zero fees",
+  headLine: "Feel confident when choosing a contractor",
   description:
-    "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.",
+    "Get access to our exclusive app that allows you to hire someone a Consultant, a Contractor, a Cleaner Nukang finds for you for free.",
   buttonLabel: "Get Started",
   imgStart: false,
   img: construction,
