@@ -5,7 +5,7 @@ import logo from "../../images/logo.png";
 
 export const Nav = styled.nav`
   align-items: center;
-  background: #fff;
+  background: ${({ scrollNav }) => (scrollNav ? "#FFF" : "#FFF")};
   display: flex;
   font-size: 1rem;
   height: 80px;
@@ -18,8 +18,6 @@ export const Nav = styled.nav`
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
   }
-  /* margin-top: -80px;
-	*/
 `;
 
 export const NavbarContainer = styled.div`
@@ -86,7 +84,7 @@ export const NavLinks = styled(LinkS)`
   font-weight: bold;
 
   &.active {
-    border-bottom: 3px solid #01bf71;
+    border-bottom: 3px solid #ffca10;
   }
 `;
 
@@ -103,7 +101,7 @@ export const NavBtnLink = styled(LinkR)`
   background: #fff;
   border-color: #ffca10;
   border-radius: 6px;
-  border-style: solid;
+  border: 2px solid #ffca10;
   color: #ffca10;
   cursor: pointer;
   font-size: 16px;
@@ -114,8 +112,8 @@ export const NavBtnLink = styled(LinkR)`
   white-space: nowrap;
 
   &:hover {
-    position: relative;
-    padding: 12px 22px;
+    transform: scale(1.1, 1.1);
+    transform-style: flat;
     background: #ffca10;
     color: #fff;
     transition: all 0.2s ease-in-out;

@@ -18,7 +18,7 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-  id: "network",
+  id: "signup",
   lightBg: true,
   lightText: true,
   lightTextDesc: true,

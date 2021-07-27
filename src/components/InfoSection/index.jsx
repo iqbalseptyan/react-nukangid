@@ -41,9 +41,11 @@ const InfoSection = ({
                 <Subtitle> {description}</Subtitle>
                 <BtnWrap>
                   <Button
-                    to="home"
+                    to="signup"
+                    // href="/signin"
+                    // target="_blank"
                     smooth={true}
-                    duration={500}
+                    duration={600}
                     spy={true}
                     exact="true"
                     offset={-80}

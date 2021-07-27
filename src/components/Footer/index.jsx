@@ -1,4 +1,8 @@
 import React from "react";
+import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { animateScroll as scroll } from "react-scroll";
+import logo from "../../images/logo.svg";
+import { Button } from "../ButtonElements";
 import {
   FooterContainer,
   FooterLink,
@@ -7,9 +11,18 @@ import {
   FooterLinksWrapper,
   FooterLinkTitle,
   FooterWrap,
+  SocialIconLink,
+  SocialIcons,
+  SocialLinkLogo,
+  SocialLogo,
+  SocialMedia,
+  SocialMediaWrap,
+  WebsiteRights,
 } from "./FooterElements";
-
 const Footer = () => {
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
   return (
     <FooterContainer>
       <FooterWrap>
@@ -17,21 +30,10 @@ const Footer = () => {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to="/">About Us</FooterLink>
               <FooterLink to="/">Contack Us</FooterLink>
               <FooterLink to="/">Careers</FooterLink>
               <FooterLink to="/">Blog</FooterLink>
               <FooterLink to="/">Press</FooterLink>
-              <FooterLink to="/">About Us</FooterLink>
-            </FooterLinkItems>
-            <FooterLinkItems>
-              <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to="/">About Us</FooterLink>
-              <FooterLink to="/">Contack Us</FooterLink>
-              <FooterLink to="/">Careers</FooterLink>
-              <FooterLink to="/">Blog</FooterLink>
-              <FooterLink to="/">Press</FooterLink>
-              <FooterLink to="/">About Us</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Customers</FooterLinkTitle>
@@ -41,14 +43,48 @@ const Footer = () => {
               <FooterLink to="/">Find a Consultant</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
-              <FooterLinkTitle>Join with us</FooterLinkTitle>
-              <FooterLink to="/">Sign Up</FooterLink>
-              <FooterLink to="/">Sign in</FooterLink>
-              <FooterLink to="/">Sign Up</FooterLink>
-              <FooterLink to="/">Sign in</FooterLink>
+              <FooterLinkTitle>Patners</FooterLinkTitle>
+              <FooterLink to="/">Join with us</FooterLink>
+              <FooterLink to="/">
+                <Button primary big sameWidth outline dark>
+                  Sign Up
+                </Button>
+              </FooterLink>
+              <FooterLink to="/">
+                <Button primary big sameWidth outline dark>
+                  Sign In
+                </Button>
+              </FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
+        <SocialMedia>
+          <SocialMediaWrap>
+            <SocialLinkLogo
+              smooth={true}
+              duration={600}
+              src={logo}
+              onClick={toggleHome}
+            >
+              <SocialLogo src={logo} />
+            </SocialLinkLogo>
+            <WebsiteRights>
+              © Inatech, Inc. {new Date().getFullYear()}. We love our users!
+            </WebsiteRights>
+
+            <SocialIcons>
+              <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+                <FaFacebook />
+              </SocialIconLink>
+              <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+                <FaInstagram />
+              </SocialIconLink>
+              <SocialIconLink href="/" target="_blank" aria-label="Whatsapp">
+                <FaWhatsapp />
+              </SocialIconLink>
+            </SocialIcons>
+          </SocialMediaWrap>
+        </SocialMedia>
       </FooterWrap>
     </FooterContainer>
   );

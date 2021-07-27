@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 export const ServicesImg = styled.img`
   width: 100%;
-  height: 700px;
+  height: 500px;
 `;
 
 export const ServicesContainer = styled.div`
-  height: 800px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;

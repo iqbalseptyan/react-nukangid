@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { FaStar } from "react-icons/fa";
 
 export const DiscoverContainer = styled.div`
-  height: 700px;
+  height: 600px;
   z-index: 1;
   display: flex;
   flex-direction: column;
