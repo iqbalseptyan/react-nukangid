@@ -10,7 +10,7 @@ import {
   ArrowRight,
 } from "./HeroElements";
 
-const Hero = () => {
+const HeroSection = () => {
   const [hover, setHover] = useState(false);
 
   const onHover = () => {
@@ -29,7 +29,7 @@ const Hero = () => {
               to="signup"
               onMouseEnter={onHover}
               onMouseLeave={onHover}
-              primary="true"
+              // primary="true"
               dark="true"
             >
               Get Started {hover ? <ArrowForward /> : <ArrowRight />}
@@ -41,4 +41,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroSection;
