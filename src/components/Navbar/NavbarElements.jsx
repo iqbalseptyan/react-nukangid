@@ -12,6 +12,7 @@ export const Nav = styled.nav`
   justify-content: center;
   position: sticky;
   top: 0;
+  width: 100%;
   z-index: 10;
 
   @media screen and (max-width: 960px) {

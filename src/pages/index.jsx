@@ -3,11 +3,11 @@ import HeroSection from "../components/HeroSection";
 import InfoSection from "../components/InfoSection";
 import { homeObjOne } from "../components/InfoSection/Data";
 import Navbar from "../components/Navbar";
-import ServicesSection from "../components/ServicesSection";
+import DiscoverSection from "../components/DiscoverSection";
 import {
   servicesObjOne,
   servicesObjTwo,
-} from "../components/ServicesSection/Data";
+} from "../components/DiscoverSection/Data";
 import Sidebar from "../components/Sidebar";
 
 const Home = () => {
@@ -23,8 +23,8 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <HeroSection />
       <InfoSection {...homeObjOne} />
-      <ServicesSection {...servicesObjOne} />
-      <ServicesSection {...servicesObjTwo} />
+      <DiscoverSection {...servicesObjOne} />
+      <DiscoverSection {...servicesObjTwo} />
     </>
   );
 };

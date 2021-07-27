@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { FaStar } from "react-icons/fa";
 
-export const ServicesContainer = styled.div`
+export const DiscoverContainer = styled.div`
   height: 800px;
   z-index: 1;
   display: flex;
@@ -9,43 +9,47 @@ export const ServicesContainer = styled.div`
   justify-content: center;
   align-items: center;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     height: 1100px;
   }
   @media screen and (max-width: 480px) {
     height: 1300px;
   }
 `;
-export const ServicesH1 = styled.h1`
+export const DiscoverH1 = styled.h1`
   margin-top: 0;
 
   margin-left: 24px;
   color: #000;
   margin-bottom: 32px;
-  /* @media screen and (max-width: 480px) {
-    font-size: 2rem;
-  } */
+  @media screen and (max-width: 480px) {
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
 `;
-export const ServicesWrapper = styled.div`
-  max-width: 1000px;
+export const DiscoverWrapper = styled.div`
+  max-width: auto;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  grid-gap: 16px;
+  grid-gap: 24px;
   padding: 0 50px;
 
-  @media screen and(max-width:1000px) {
+  @media screen and (max-width: 1024px) {
     grid-template-columns: 1fr 1fr;
+    padding: 0 24px;
   }
-
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 480px) {
     grid-template-columns: 1fr;
     padding: 0 20px;
   }
 `;
 
-export const ServicesCard = styled.div`
+export const DiscoverCard = styled.div`
   background: #fff;
   border-radius: 10px;
   border-color: #ffca10;
@@ -62,7 +66,7 @@ export const ServicesCard = styled.div`
     cursor: pointer;
   }
 `;
-export const ServicesIcon = styled.img`
+export const DiscoverIcon = styled.img`
   height: 260px;
   width: auto;
   display: block;
@@ -71,7 +75,7 @@ export const ServicesIcon = styled.img`
   margin-bottom: 24px;
 `;
 
-export const ServicesRow = styled.div`
+export const DiscoverRow = styled.div`
   display: grid;
   grid-auto-columns: minmax(auto, auto);
   align-items: center;
@@ -86,19 +90,19 @@ export const Column2 = styled.div`
   grid-area: col2;
 `;
 
-export const ServicesH2 = styled.h2`
+export const DiscoverH2 = styled.h2`
   margin-bottom: 2px;
   font-size: 1rem;
   font-weight: 700;
   color: #626161;
 `;
-export const ServicesH3 = styled.h3`
+export const DiscoverH3 = styled.h3`
   margin-bottom: 2px;
   font-size: 1rem;
   font-weight: 600;
   color: #626161;
 `;
-export const ServicesP = styled.p`
+export const DiscoverP = styled.p`
   margin-bottom: 2px;
   font-size: 1rem;
   font-weight: 400;
