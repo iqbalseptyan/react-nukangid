@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const ProfileContainer = styled.div`
   display: flex;
-  width: 50%;
+  width: 50%auto;
+  height: auto;
   justify-content: center;
   align-items: center;
   margin-left: auto;
@@ -10,10 +11,12 @@ export const ProfileContainer = styled.div`
   margin-bottom: 64px;
 
   @media screen and (max-width: 1024px) {
-    width: auto;
+    width: 100%;
+    height: 100%;
   }
   @media screen and (max-width: 480px) {
-    width: auto;
+    width: 100%;
+    height: 100%;
   }
 `;
 
@@ -24,7 +27,6 @@ export const ProfileRow = styled.div`
   grid-template-areas: "col1 col2";
 `;
 export const Column1 = styled.div`
-  /* text-align: left; */
   grid-area: col1;
 `;
 export const Column2 = styled.div`
@@ -34,11 +36,6 @@ export const Column2 = styled.div`
 `;
 
 export const ProfileH1 = styled.h1`
-  /* font-size: 2.5rem
-  margin-top: 0;
-
-  color: #000;
-  margin-bottom: 32px; */
   @media screen and (max-width: 480px) {
     font-size: 1.5rem;
     margin-bottom: 16px;
@@ -71,7 +68,7 @@ export const ProfileCard = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 350px;
+  width: auto;
   height: auto;
   padding: 24px;
   transition: all 0.2s ease-in-out;
@@ -84,8 +81,8 @@ export const ProfileCard = styled.div`
 `;
 
 export const ProfileIcon = styled.img`
-  height: 260px;
-  width: auto;
+  height: 100%;
+  width: 100%;
   border-radius: 50%;
 `;
 
@@ -103,7 +100,7 @@ export const ProfileP = styled.p`
 
 export const BannerContainer = styled.div`
   display: grid;
-  width: 100%;
+  width: auto;
   height: auto;
   justify-content: center;
   align-items: center;
@@ -114,13 +111,12 @@ export const BannerContainer = styled.div`
 export const Banner = styled.img`
   @media screen and (max-width: 1200px) {
     width: 100%;
-    height: auto;
+    height: 100%;
     margin-bottom: 24px;
   }
   @media screen and (max-width: 768px) {
     width: 100%;
-    /* max-width: 400px; */
-    height: auto;
+    height: 100%;
     margin-bottom: 12px;
   }
 `;

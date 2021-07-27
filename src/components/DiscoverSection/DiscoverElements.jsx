@@ -13,6 +13,9 @@ export const DiscoverContainer = styled.div`
     height: 1100px;
   }
   @media screen and (max-width: 768px) {
+    height: 1600px;
+  }
+  @media screen and (max-width: 480px) {
     height: 1400px;
   }
 `;
@@ -54,7 +57,7 @@ export const DiscoverCard = styled.div`
   border-radius: 10px;
   border-color: #ffca10;
   border: 1px solid #ffca10;
-  width: 300px;
+  width: auto;
   height: auto;
   padding: 24px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
@@ -67,12 +70,11 @@ export const DiscoverCard = styled.div`
   }
 `;
 export const DiscoverIcon = styled.img`
-  height: 260px;
-  width: auto;
+  height: auto;
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 24px;
 `;
 
 export const DiscoverRow = styled.div`

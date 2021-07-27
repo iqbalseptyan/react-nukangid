@@ -24,4 +24,18 @@ export const Button = styled(Link)`
     background-color: ${({ outline }) => (outline ? "#FFCA10" : "#FFF")};
     color: ${({ dark }) => (dark ? "#FFF" : "#FFCA10")};
   }
+
+  @media screen and (max-width: 480px) {
+    padding: 6px 12px;
+    font-size: 10px;
+    align-items: center;
+    display: flex;
+  }
+  @media screen and (max-width: 320px) {
+    width: 45%;
+    padding: 4px 10px;
+    font-size: 8px;
+    align-items: center;
+    display: flex;
+  }
 `;

@@ -4,6 +4,13 @@ import { Link as LinkS } from "react-scroll";
 
 export const FooterContainer = styled.footer`
   background-color: #fff;
+  @media screen and (max-width: 768px) {
+    padding: 100px 0;
+    height: 1000px;
+  }
+  @media screen and (max-width: 480px) {
+    height: 800px;
+  }
 `;
 
 export const FooterWrap = styled.div`
@@ -28,7 +35,10 @@ export const FooterLinksContainer = styled.div`
 export const FooterLinksWrapper = styled.div`
   display: flex;
 
-  @media screen and (max-width: 820px) {
+  @media screen and (max-width: 768px) {
+    height: 100%;
+  }
+  @media screen and (max-width: 480px) {
     flex-direction: column;
   }
 `;

@@ -11,7 +11,10 @@ export const BlogContainer = styled.div`
     height: 1100px;
   }
   @media screen and (max-width: 768px) {
-    height: 1400px;
+    height: 1700px;
+  }
+  @media screen and (max-width: 480px) {
+    height: 1500px;
   }
 `;
 
@@ -54,7 +57,7 @@ export const BlogCard = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 350px;
+  width: auto;
   height: auto;
   padding: 24px;
   transition: all 0.2s ease-in-out;
@@ -66,8 +69,8 @@ export const BlogCard = styled.div`
   }
 `;
 export const BlogIcon = styled.img`
-  height: 260px;
-  width: auto;
+  height: 100%;
+  width: 100%;
   margin-bottom: 24px;
 `;
 
