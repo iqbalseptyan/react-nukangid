@@ -16,21 +16,7 @@ import {
 import icon1 from "../../images/svg-1.svg";
 import icon2 from "../../images/svg-2.svg";
 
-const DiscoverSection = ({
-  lightBg,
-  id,
-  imgStart,
-  topLine,
-  headLine,
-  description,
-  buttonLabel,
-  img,
-  alt,
-  primary,
-  dark,
-  dark2,
-  title,
-}) => {
+const DiscoverSection = ({ id, title }) => {
   return (
     <DiscoverContainer id={id}>
       <DiscoverH1>{title}</DiscoverH1>

@@ -1,7 +1,5 @@
-import icon1 from "../../images/svg-1.svg";
-
-export const servicesObjOne = {
-  id: "topTukang",
+export const discoverObjOne = {
+  id: "discover",
   title: "Top Tukang",
   lightBg: true,
   lightText: true,
@@ -9,8 +7,8 @@ export const servicesObjOne = {
   dark: false,
   primary: true,
 };
-export const servicesObjTwo = {
-  id: "topKonsultan",
+export const discoverObjTwo = {
+  id: "discover",
   title: "Top Konsultan",
   lightBg: true,
   lightText: true,
