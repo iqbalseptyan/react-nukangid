@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/react-nukangid/static/css/main.3d311c9a.chunk.css",
+    "main.js": "/react-nukangid/static/js/main.76c62873.chunk.js",
+    "main.js.map": "/react-nukangid/static/js/main.76c62873.chunk.js.map",
+    "runtime-main.js": "/react-nukangid/static/js/runtime-main.bc0d5848.js",
+    "runtime-main.js.map": "/react-nukangid/static/js/runtime-main.bc0d5848.js.map",
+    "static/js/2.5cf19892.chunk.js": "/react-nukangid/static/js/2.5cf19892.chunk.js",
+    "static/js/2.5cf19892.chunk.js.map": "/react-nukangid/static/js/2.5cf19892.chunk.js.map",
+    "index.html": "/react-nukangid/index.html",
+    "static/css/main.3d311c9a.chunk.css.map": "/react-nukangid/static/css/main.3d311c9a.chunk.css.map",
+    "static/js/2.5cf19892.chunk.js.LICENSE.txt": "/react-nukangid/static/js/2.5cf19892.chunk.js.LICENSE.txt",
+    "static/media/banner-1.f8d82106.svg": "/react-nukangid/static/media/banner-1.f8d82106.svg",
+    "static/media/banner-2.ba8e4de1.svg": "/react-nukangid/static/media/banner-2.ba8e4de1.svg",
+    "static/media/blog-1.0dc0bc17.svg": "/react-nukangid/static/media/blog-1.0dc0bc17.svg",
+    "static/media/blog-2.298518db.svg": "/react-nukangid/static/media/blog-2.298518db.svg",
+    "static/media/blog-3.bc9a0418.svg": "/react-nukangid/static/media/blog-3.bc9a0418.svg",
+    "static/media/chat.5210ec35.svg": "/react-nukangid/static/media/chat.5210ec35.svg",
+    "static/media/construction.ba0e0b5d.svg": "/react-nukangid/static/media/construction.ba0e0b5d.svg",
+    "static/media/hero.81c64260.png": "/react-nukangid/static/media/hero.81c64260.png",
+    "static/media/hire.9ede3169.svg": "/react-nukangid/static/media/hire.9ede3169.svg",
+    "static/media/logo.2258898d.svg": "/react-nukangid/static/media/logo.2258898d.svg",
+    "static/media/man.5cda74d0.svg": "/react-nukangid/static/media/man.5cda74d0.svg",
+    "static/media/nukang.c2192ea1.svg": "/react-nukangid/static/media/nukang.c2192ea1.svg",
+    "static/media/profile.f29a1b80.svg": "/react-nukangid/static/media/profile.f29a1b80.svg",
+    "static/media/search.3788e58a.svg": "/react-nukangid/static/media/search.3788e58a.svg",
+    "static/media/svg-1.81be1d66.svg": "/react-nukangid/static/media/svg-1.81be1d66.svg",
+    "static/media/svg-2.d20ec6aa.svg": "/react-nukangid/static/media/svg-2.d20ec6aa.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc0d5848.js",
+    "static/js/2.5cf19892.chunk.js",
+    "static/css/main.3d311c9a.chunk.css",
+    "static/js/main.76c62873.chunk.js"
+  ]
+}
