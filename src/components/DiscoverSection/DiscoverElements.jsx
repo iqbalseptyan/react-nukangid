@@ -16,7 +16,7 @@ export const DiscoverContainer = styled.div`
     height: 1600px;
   }
   @media screen and (max-width: 480px) {
-    height: 1400px;
+    height: 1300px;
   }
 `;
 export const DiscoverH1 = styled.h1`

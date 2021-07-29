@@ -8,8 +8,6 @@ export const ProfileContainer = styled.div`
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  /* margin-bottom: 64px; */
-  /* height: 600px; */
 
   @media screen and (max-width: 1024px) {
     width: 80%;
@@ -100,9 +98,8 @@ export const ProfileP = styled.p`
 `;
 
 export const BannerContainer = styled.div`
+  margin-top: 48px;
   display: grid;
-  width: auto;
-  height: auto;
   justify-content: center;
   align-items: center;
   margin-left: auto;
@@ -110,14 +107,14 @@ export const BannerContainer = styled.div`
 `;
 
 export const Banner = styled.img`
-  @media screen and (max-width: 1200px) {
-    width: 100%;
-    height: 100%;
-    margin-bottom: 24px;
-  }
   @media screen and (max-width: 768px) {
     width: 100%;
-    height: 100%;
-    margin-bottom: 12px;
+    max-width: 400px;
+    height: auto;
+  }
+  @media screen and (max-width: 480px) {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
   }
 `;
