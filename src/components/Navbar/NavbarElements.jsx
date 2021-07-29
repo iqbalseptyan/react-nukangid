@@ -35,11 +35,9 @@ export const NavLogo = styled(LinkR)`
   background-repeat: no-repeat;
   background-size: 200px 50px;
   background-position: 6px 8px;
-  width: 20%;
+  width: 100%;
+  max-width: 210px;
   height: auto;
-  @media screen and (max-width: 768px) {
-    width: 100%;
-  }
 `;
 
 export const MobileIcon = styled.div`

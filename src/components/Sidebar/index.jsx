@@ -11,6 +11,10 @@ import {
 } from "./SidebarElements";
 
 const Sidebar = ({ isOpen, toggle }) => {
+  const redirect = () => {
+    window.location.href =
+      "https://play.google.com/store/apps/details?id=com.nukangid";
+  };
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
       <Icon onClick={toggle}>
@@ -30,12 +34,12 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="blog" onClick={toggle}>
             Blog
           </SidebarLink>
-          <SidebarLink to="signin" onClick={toggle}>
+          <SidebarLink to="profile" onClick={toggle}>
             Sign In
           </SidebarLink>
         </SidebarMenu>
         <SidebarBtnWrap>
-          <SidebarRoute to="/signup">Sign Up</SidebarRoute>
+          <SidebarRoute onClick={redirect}>Sign Up</SidebarRoute>
         </SidebarBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
