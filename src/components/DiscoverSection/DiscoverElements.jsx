@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { FaStar } from "react-icons/fa";
 
 export const DiscoverContainer = styled.div`
-  height: 600px;
+  height: 650px;
   z-index: 1;
   display: flex;
   flex-direction: column;
@@ -70,8 +70,8 @@ export const DiscoverCard = styled.div`
   }
 `;
 export const DiscoverIcon = styled.img`
-  height: auto;
-  width: 100%;
+  height: 250px;
+  width: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;

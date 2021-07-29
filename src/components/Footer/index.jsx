@@ -23,6 +23,10 @@ const Footer = () => {
   const toggleHome = () => {
     scroll.scrollToTop();
   };
+  const redirect = () => {
+    window.location.href =
+      "https://play.google.com/store/apps/details?id=com.nukangid";
+  };
   return (
     <FooterContainer>
       <FooterWrap>
@@ -45,14 +49,9 @@ const Footer = () => {
             <FooterLinkItems>
               <FooterLinkTitle>Patners</FooterLinkTitle>
               <FooterLink to="/">Join with us</FooterLink>
-              <FooterLink to="/">
-                <Button primary big sameWidth outline dark>
+              <FooterLink>
+                <Button primary big sameWidth outline dark onClick={redirect}>
                   Sign Up
-                </Button>
-              </FooterLink>
-              <FooterLink to="/">
-                <Button primary big sameWidth outline dark>
-                  Sign In
                 </Button>
               </FooterLink>
             </FooterLinkItems>

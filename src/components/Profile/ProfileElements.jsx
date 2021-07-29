@@ -2,13 +2,14 @@ import styled from "styled-components";
 
 export const ProfileContainer = styled.div`
   display: flex;
-  width: 50%;
-  height: auto;
+  width: 70%;
+  height: 300px;
   justify-content: center;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 64px;
+  /* margin-bottom: 64px; */
+  /* height: 600px; */
 
   @media screen and (max-width: 1024px) {
     width: 80%;

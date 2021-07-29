@@ -31,6 +31,7 @@ const HeroSection = () => {
               onMouseLeave={onHover}
               outline
               dark
+              marginleft
             >
               Get Started {hover ? <ArrowForward /> : <ArrowRight />}
             </Button>

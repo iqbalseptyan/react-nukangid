@@ -4,6 +4,7 @@ import { Link as LinkS } from "react-scroll";
 
 export const FooterContainer = styled.footer`
   background-color: #fff;
+  /* height: 300px; */
   @media screen and (max-width: 768px) {
     padding: 100px 0;
     height: 1000px;
@@ -69,10 +70,10 @@ export const FooterLink = styled(LinkR)`
   color: #000;
   text-decoration: none;
   margin-bottom: 0.5rem;
-  font-size: 14px;
+  font-size: 18px;
   width: 100%;
   &:hover {
-    color: #01bf71;
+    color: #ffca10;
     transition: 0.3s ease-out;
   }
 `;

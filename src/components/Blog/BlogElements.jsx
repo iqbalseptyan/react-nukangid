@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const BlogContainer = styled.div`
-  height: 600px;
+  height: 650px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,7 +19,7 @@ export const BlogContainer = styled.div`
 `;
 
 export const BlogH1 = styled.h1`
-  font-size: 2.5rem
+  font-size: 2.5rem;
   margin-top: 0;
 
   margin-left: 24px;

@@ -13,7 +13,8 @@ export const Button = styled(Link)`
   width: ${({ sameWidth }) => (sameWidth ? "100%" : "auto")};
   outline: none;
   cursor: pointer;
-  display: flex;
+  display: ${({ none }) => (none ? "none" : "flex")};
+  margin-left: ${({ marginleft }) => (marginleft ? "-10px" : "0")};
   font-weight: bold;
   transition: all 0.2s ease-in-out;
 
@@ -26,7 +27,7 @@ export const Button = styled(Link)`
   }
 
   @media screen and (max-width: 480px) {
-    padding: 6px 12px;
+    padding: 8px 16px;
     font-size: 10px;
     align-items: center;
     display: flex;
@@ -36,6 +37,5 @@ export const Button = styled(Link)`
     padding: 4px 10px;
     font-size: 8px;
     align-items: center;
-    display: flex;
   }
 `;

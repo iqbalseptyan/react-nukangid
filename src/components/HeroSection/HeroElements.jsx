@@ -7,8 +7,11 @@ export const HeroContainer = styled.div`
   align-items: center;
   padding: 0 30px;
   position: relative;
-  height: 500px;
+  height: 550px;
   z-index: 1;
+  @media screen and (max-width: 480px) {
+    max-height: 300px;
+  }
 `;
 export const HeroBg = styled.div`
   overflow: hidden;

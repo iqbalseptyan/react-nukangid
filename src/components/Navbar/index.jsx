@@ -28,6 +28,11 @@ const Navbar = ({ toggle }) => {
     window.addEventListener("scroll", changeNav);
   }, []);
 
+  const redirect = () => {
+    window.location.href =
+      "https://play.google.com/store/apps/details?id=com.nukangid";
+  };
+
   const toggleHome = () => {
     scroll.scrollToTop();
   };
@@ -91,20 +96,19 @@ const Navbar = ({ toggle }) => {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="signup"
+                to="profile"
                 smooth={true}
                 duration={600}
                 spy={true}
                 exact="true"
                 offset={-80}
-                acitveClass="active"
               >
-                Sign Up
+                Profile
               </NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="signin">Sign In</NavBtnLink>
+            <NavBtnLink onClick={redirect}>Sign Up</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

@@ -18,7 +18,7 @@ import banner2 from "../../images/banner-2.svg";
 const Profile = () => {
   return (
     <>
-      <ProfileContainer>
+      <ProfileContainer id="profile">
         <ProfileRow>
           <Column1>
             <ProfileIcon src={IconProfile} />
