@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-nukangid/static/css/main.3d311c9a.chunk.css",
-    "main.js": "/react-nukangid/static/js/main.b48158b6.chunk.js",
-    "main.js.map": "/react-nukangid/static/js/main.b48158b6.chunk.js.map",
+    "main.js": "/react-nukangid/static/js/main.72036ff8.chunk.js",
+    "main.js.map": "/react-nukangid/static/js/main.72036ff8.chunk.js.map",
     "runtime-main.js": "/react-nukangid/static/js/runtime-main.bc0d5848.js",
     "runtime-main.js.map": "/react-nukangid/static/js/runtime-main.bc0d5848.js.map",
     "static/js/2.5cf19892.chunk.js": "/react-nukangid/static/js/2.5cf19892.chunk.js",
@@ -17,7 +17,7 @@
     "static/media/blog-3.bc9a0418.svg": "/react-nukangid/static/media/blog-3.bc9a0418.svg",
     "static/media/chat.5210ec35.svg": "/react-nukangid/static/media/chat.5210ec35.svg",
     "static/media/construction.ba0e0b5d.svg": "/react-nukangid/static/media/construction.ba0e0b5d.svg",
-    "static/media/hero.81c64260.png": "/react-nukangid/static/media/hero.81c64260.png",
+    "static/media/hero.b307d30e.svg": "/react-nukangid/static/media/hero.b307d30e.svg",
     "static/media/hire.9ede3169.svg": "/react-nukangid/static/media/hire.9ede3169.svg",
     "static/media/logo.2258898d.svg": "/react-nukangid/static/media/logo.2258898d.svg",
     "static/media/man.5cda74d0.svg": "/react-nukangid/static/media/man.5cda74d0.svg",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.bc0d5848.js",
     "static/js/2.5cf19892.chunk.js",
     "static/css/main.3d311c9a.chunk.css",
-    "static/js/main.b48158b6.chunk.js"
+    "static/js/main.72036ff8.chunk.js"
   ]
 }
