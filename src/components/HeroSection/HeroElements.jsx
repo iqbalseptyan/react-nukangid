@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import banner from "../../images/hero.png";
 import { MdArrowForward, MdKeyboardArrowRight } from "react-icons/md";
 
 export const HeroContainer = styled.div`
@@ -8,26 +7,32 @@ export const HeroContainer = styled.div`
   padding: 0 30px;
   position: relative;
   height: 550px;
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
   z-index: 1;
+  margin-top: 20px;
+  @media screen and (max-width: 768px) {
+    height: 400px;
+  }
   @media screen and (max-width: 480px) {
-    max-height: 300px;
+    height: 200px;
   }
 `;
-export const HeroBg = styled.div`
-  overflow: hidden;
-  height: 100%;
-  width: 100%;
-  background: url(${banner});
-  background-size: 100% 100%;
+
+export const HeroBg = styled.img`
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (max-width: 768px) {
+    height: 100%;
+    width: 100%;
+  }
 `;
 
 export const HeroContent = styled.div`
-  z-index: 3;
   position: absolute;
-  padding: 8px 48px;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
+  transform: translateX(13%);
 `;
 
 export const HeroH1 = styled.h1`
@@ -36,15 +41,15 @@ export const HeroH1 = styled.h1`
   font-size: 48px;
   text-align: left;
   @media screen and (max-width: 768px) {
-    font-size: 32px;
+    font-size: 30px;
   }
   @media screen and (max-width: 480px) {
-    font-size: 16px;
+    font-size: 14px;
   }
 `;
 
 export const HeroBtnWrapper = styled.div`
-  margin-top: 32px;
+  margin-top: 16px;
   display: flex;
   text-align: center;
 `;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const BlogContainer = styled.div`
-  height: 650px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,10 +11,10 @@ export const BlogContainer = styled.div`
     height: 1100px;
   }
   @media screen and (max-width: 768px) {
-    height: 1700px;
+    height: 1720px;
   }
   @media screen and (max-width: 480px) {
-    height: 1300px;
+    height: auto;
   }
 `;
 
@@ -54,6 +54,7 @@ export const BlogWrapper = styled.div`
 
 export const BlogCard = styled.div`
   background: #fff;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,6 +70,7 @@ export const BlogCard = styled.div`
   }
 `;
 export const BlogIcon = styled.img`
+  border-radius: 10px;
   height: 100%;
   width: 100%;
   margin-bottom: 24px;

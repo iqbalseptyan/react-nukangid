@@ -9,7 +9,7 @@ import {
   ArrowForward,
   ArrowRight,
 } from "./HeroElements";
-
+import banner from "../../images/hero.svg";
 const HeroSection = () => {
   const [hover, setHover] = useState(false);
 
@@ -19,7 +19,7 @@ const HeroSection = () => {
   return (
     <>
       <HeroContainer>
-        <HeroBg></HeroBg>
+        <HeroBg src={banner} />
         <HeroContent>
           <HeroH1>
             Feel confident when choosing a contractor and your price
@@ -31,7 +31,9 @@ const HeroSection = () => {
               onMouseLeave={onHover}
               outline
               dark
-              marginleft
+              small
+              fontSmall
+              borderOutline
             >
               Get Started {hover ? <ArrowForward /> : <ArrowRight />}
             </Button>

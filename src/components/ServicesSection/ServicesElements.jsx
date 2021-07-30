@@ -6,6 +6,7 @@ export const ServicesImg = styled.img`
   display: block;
   width: 80%;
   height: 80%;
+  max-width: 1366px;
   /* margin-bottom: 20px; */
   @media screen and (max-width: 768px) {
     height: 100%;
@@ -14,20 +15,23 @@ export const ServicesImg = styled.img`
 `;
 
 export const ServicesContainer = styled.div`
-  height: 650px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1366px;
   @media screen and (max-width: 1200px) {
     height: 1100px;
   }
   @media screen and (max-width: 768px) {
-    height: 2000px;
+    height: 1400px;
   }
   @media screen and (max-width: 480px) {
-    height: 1300px;
+    height: auto;
+    padding: 50px 0;
   }
 `;
 export const ServicesH1 = styled.h1`

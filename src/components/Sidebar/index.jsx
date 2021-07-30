@@ -35,7 +35,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             Blog
           </SidebarLink>
           <SidebarLink to="profile" onClick={toggle}>
-            Sign In
+            Profile
           </SidebarLink>
         </SidebarMenu>
         <SidebarBtnWrap>

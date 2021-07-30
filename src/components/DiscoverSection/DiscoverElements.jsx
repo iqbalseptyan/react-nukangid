@@ -2,21 +2,21 @@ import styled from "styled-components";
 import { FaStar } from "react-icons/fa";
 
 export const DiscoverContainer = styled.div`
-  height: 650px;
+  height: 550px;
   z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   @media screen and (max-width: 1200px) {
     height: 1100px;
   }
   @media screen and (max-width: 768px) {
-    height: 1600px;
+    height: 1400px;
   }
   @media screen and (max-width: 480px) {
-    height: 1300px;
+    height: auto;
+    padding: 50px 0;
   }
 `;
 export const DiscoverH1 = styled.h1`
@@ -35,12 +35,11 @@ export const DiscoverH1 = styled.h1`
 `;
 export const DiscoverWrapper = styled.div`
   max-width: auto;
-  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   grid-gap: 24px;
-  padding: 0 50px;
+  padding: 0 30px;
 
   @media screen and (max-width: 1200px) {
     grid-template-columns: 1fr 1fr;
@@ -78,6 +77,7 @@ export const DiscoverIcon = styled.img`
 `;
 
 export const DiscoverRow = styled.div`
+  padding: 10px 0;
   display: grid;
   grid-auto-columns: minmax(auto, auto);
   align-items: center;
@@ -86,6 +86,7 @@ export const DiscoverRow = styled.div`
 export const Column1 = styled.div`
   text-align: left;
   grid-area: col1;
+  margin-right: 4px;
 `;
 export const Column2 = styled.div`
   text-align: right;

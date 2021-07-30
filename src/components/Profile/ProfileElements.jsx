@@ -3,18 +3,23 @@ import styled from "styled-components";
 export const ProfileContainer = styled.div`
   display: flex;
   width: 70%;
-  height: 300px;
+  height: 550px;
   justify-content: center;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-
+  max-width: 1366px;
   @media screen and (max-width: 1024px) {
     width: 80%;
     height: 100%;
   }
+  @media screen and (max-width: 768px) {
+    width: 80%;
+    height: 350px;
+  }
   @media screen and (max-width: 480px) {
-    width: 100%;
+    margin-top: 48px;
+    width: 80%;
     height: 100%;
   }
 `;
@@ -99,6 +104,7 @@ export const ProfileP = styled.p`
 
 export const BannerContainer = styled.div`
   margin-top: 48px;
+  margin-bottom: 48px;
   display: grid;
   justify-content: center;
   align-items: center;

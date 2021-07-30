@@ -7,14 +7,12 @@ export const Button = styled(Link)`
   background: ${({ primary }) => (primary ? "#FFCA10" : "#fff")};
   background-color: ${({ outline }) => (outline ? "#fff" : "#FFCA10")};
   white-space: nowrap;
-  padding: ${({ big }) => (big ? "14px 48px" : "12px 24px")};
+  padding: ${({ big }) => (big ? "14px 32px" : "12px 24px")};
   color: ${({ dark }) => (dark ? "#FFCA10" : "#FFF")};
   font-size: ${({ fontBig }) => (fontBig ? "20px" : "16px")};
-  width: ${({ sameWidth }) => (sameWidth ? "100%" : "auto")};
   outline: none;
   cursor: pointer;
   display: ${({ none }) => (none ? "none" : "flex")};
-  margin-left: ${({ marginleft }) => (marginleft ? "-10px" : "0")};
   font-weight: bold;
   transition: all 0.2s ease-in-out;
 
@@ -24,18 +22,14 @@ export const Button = styled(Link)`
     transform-style: flat;
     background-color: ${({ outline }) => (outline ? "#FFCA10" : "#FFF")};
     color: ${({ dark }) => (dark ? "#FFF" : "#FFCA10")};
+    border: ${({ borderOutline }) =>
+      borderOutline ? "2px solid #FFF" : "2px solid #FFCA10"};
   }
 
   @media screen and (max-width: 480px) {
-    padding: 8px 16px;
-    font-size: 10px;
+    padding: ${({ small }) => (small ? "6px 12px" : "12px 24px")};
+    font-size: ${({ fontSmall }) => (fontSmall ? "10px" : "14px")};
     align-items: center;
     display: flex;
-  }
-  @media screen and (max-width: 320px) {
-    width: 45%;
-    padding: 4px 10px;
-    font-size: 8px;
-    align-items: center;
   }
 `;

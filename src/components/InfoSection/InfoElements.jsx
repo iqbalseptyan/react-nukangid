@@ -3,27 +3,26 @@ import styled from "styled-components";
 export const InfoContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? "#fff" : "#010606")};
-
+  height: 700px;
   @media screen and (max-width: 768px) {
-    padding: 100px 0;
-    height: 1000px;
+    height: 1200px;
   }
   @media screen and (max-width: 480px) {
-    padding: 100px 0;
-    height: 700px;
+    height: 100%;
   }
 `;
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 650px;
   width: 100%;
+  height: 100%;
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
   padding: 0 24px;
   justify-content: center;
 `;
+
 export const InfoRow = styled.div`
   display: grid;
   grid-auto-columns: minmax(auto, 1fr);

@@ -50,7 +50,7 @@ const Footer = () => {
               <FooterLinkTitle>Patners</FooterLinkTitle>
               <FooterLink to="/">Join with us</FooterLink>
               <FooterLink>
-                <Button primary big sameWidth outline dark onClick={redirect}>
+                <Button primary outline dark onClick={redirect}>
                   Sign Up
                 </Button>
               </FooterLink>

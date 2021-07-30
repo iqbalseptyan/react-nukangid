@@ -4,14 +4,6 @@ import { Link as LinkS } from "react-scroll";
 
 export const FooterContainer = styled.footer`
   background-color: #fff;
-  /* height: 300px; */
-  @media screen and (max-width: 768px) {
-    padding: 100px 0;
-    height: 1000px;
-  }
-  @media screen and (max-width: 480px) {
-    height: 800px;
-  }
 `;
 
 export const FooterWrap = styled.div`
@@ -22,12 +14,14 @@ export const FooterWrap = styled.div`
   align-items: center;
   max-width: auto;
   margin: 0 auto;
+  @media screen and (max-width: 480px) {
+    height: auto;
+  }
 `;
 
 export const FooterLinksContainer = styled.div`
   display: flex;
   justify-content: center;
-
   @media screen and (max-width: 820px) {
     padding-top: 32px;
   }
@@ -71,7 +65,6 @@ export const FooterLink = styled(LinkR)`
   text-decoration: none;
   margin-bottom: 0.5rem;
   font-size: 18px;
-  width: 100%;
   &:hover {
     color: #ffca10;
     transition: 0.3s ease-out;
