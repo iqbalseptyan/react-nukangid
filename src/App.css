@@ -4,3 +4,21 @@
   padding: 0;
   font-family: "Montserrat", sans-serif;
 }
+.mySwiper .swiper-slide {
+  width: 80%;
+}
+.mySwiper .swiper-pagination {
+  text-align: left;
+  padding-left: 2.4rem;
+  padding-bottom: 2rem;
+}
+.mySwiper .swiper-pagination-bullet {
+  top: 2px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.mySwiper .swiper-pagination-bullet-active {
+  width: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+}

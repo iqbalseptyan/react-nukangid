@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../ButtonElements";
+import { LinkPage } from "../ButtonElements";
 import {
   BtnWrap,
   Column1,
@@ -39,23 +39,15 @@ const InfoSection = ({
                 <TopLine>{topLine}</TopLine>
                 <Heading>{headLine}</Heading>
                 <Subtitle> {description}</Subtitle>
+
                 <BtnWrap>
-                  <Button
-                    to="signup"
-                    // href="/signin"
-                    // target="_blank"
-                    smooth={true}
-                    duration={600}
-                    spy={true}
-                    exact="true"
-                    offset={-80}
-                    primary={primary ? 1 : 0}
-                    dark={dark ? 1 : 0}
-                    dark2={dark2 ? 1 : 0}
+                  <LinkPage
+                    href="/consultant"
                   >
                     {buttonLabel}
-                  </Button>
+                  </LinkPage>
                 </BtnWrap>
+
               </TextWrapper>
             </Column1>
             <Column2>

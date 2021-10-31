@@ -18,6 +18,11 @@ const HeroSection = () => {
   };
   return (
     <>
+      <div style={{ display: "flex", width: "100%", justifyContent: "center" }}>
+        <a rel="noreferrer" href="https://www.nukanghub.com" target="_blank">
+          Visit website
+        </a>
+      </div>
       <HeroContainer>
         <HeroBg src={banner} />
         <HeroContent>
